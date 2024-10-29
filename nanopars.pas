@@ -1,4 +1,5 @@
- program nope; { kulcsszo, azonosito, szam (integer), operator, string, label}
+ program nanoParser; { keyword, number, operator, string, label}
+                     { Usage: nanoPars.exe < input.txt >output.txt } 
 
  uses  SysUtils;
 
@@ -31,8 +32,7 @@
    
    while i <= Length(line) do
    begin
-     Curr := ''; 
-         
+     Curr := '';          
      case line[i] of     
        'A'..'Z':
          begin
@@ -100,8 +100,7 @@
  end;
   
  // --- MAIN ------------------------------------------------
- begin
- 
+ begin 
    while not EOF(input) do 
    begin
      readln(line); 
