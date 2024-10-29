@@ -1,0 +1,8 @@
+IF X < 10 PRINT "Hello, World!"
+B = -123 + 45
+CC = 23 - 12
+A = INPUT
+JUMP .LOOP
+
+
+

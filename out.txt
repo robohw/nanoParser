@@ -1,0 +1,21 @@
+Kywrd: IF
+Ident: X
+LogOp: <
+Num: 10
+Ident: PRINT
+Strng: "HELLO, WORLD!"
+Ident: B
+LogOp: =
+Num: -123
+Op: +
+Num: 45
+Ident: CC
+LogOp: =
+Num: 23
+Op: -
+Num: 12
+Ident: A
+LogOp: =
+Ident: INPUT
+Ident: JUMP
+Label: .LOOP
