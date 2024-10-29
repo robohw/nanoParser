@@ -1,11 +1,8 @@
  program nanoParser; { keyword, number, operator, string, label}
                      { Usage: nanoPars.exe < input.txt >output.txt } 
-
  uses  SysUtils;
-
  const 
    Keys: array[0..4] of string = ('IF', 'JUMP', 'PRINT', 'RETURN','INPUT');
-
  var
  line: string;   
 
@@ -29,7 +26,6 @@
  begin
    i := 1;
    Line := Upcase(line);
-   
    while i <= Length(line) do
    begin
      Curr := '';          
